@@ -1,0 +1,12 @@
+.navbarDiv {
+  background: linear-gradient(to left, #10497c, #4f73b9);
+  text-align: center;
+  color: white;
+  padding: 1em;
+  font-size: larger;
+}
+.cart,
+.cart:hover {
+  text-decoration: none;
+  color: white;
+}

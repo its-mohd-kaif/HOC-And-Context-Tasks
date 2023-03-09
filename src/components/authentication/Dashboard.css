@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.dashboard {
+  display: flex;
+}
+
+.dashboard__admin {
+  width: 20%;
+  border: 1px solid gray;
+
+  background-color: #cce3de;
+  height: 100vh;
+}
+
+.dashboard__title {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.dashboard__button {
+  background-color: #bcd3ce;
+  border: none;
+  width: 100%;
+  height: 3em;
+  margin-top: 1em;
+  font-size: large;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.dashboard__button:hover {
+  background-color: #a4c3b2;
+}
+
+.logoutBtn {
+  background: transparent;
+  border: none;
+  font-size: larger;
+  font-weight: bold;
+  margin-top: 2em;
+  margin-bottom: 3em;
+  cursor: pointer;
+}
+
+/* ************************* */
+.dashboard__navigation {
+  width: 80%;
+}
+
+.navTitle {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+
+table,
+td,
+th {
+  border: 1px solid #bcd3ce;
+}
+
+th {
+  background-color: #cce3de;
+  padding: 8px 60px;
+}
+
+td {
+  text-align: center;
+  padding: 8px 40px;
+}
+
+.tableDiv {
+  overflow-x: auto;
+}
+
+table {
+  width: 80%;
+  border-collapse: collapse;
+  overflow-x: auto;
+}
+
+.editBtn,
+.arrowBtn {
+  background-color: #a4c3b2;
+  padding: 2px 20px;
+  border: none;
+  border-radius: 10px;
+  border: 1px solid gray;
+  font-size: large;
+  font-weight: bold;
+}
+
+.arrowBtn {
+  padding: 5px 5px;
+}
+
+.visibleBtn {
+  background-color: #00cc00;
+}
+
+.deleteBtn {
+  background-color: red;
+}
+
+button {
+  cursor: pointer;
+}
+
+.mainTitle {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+
+.mainBtn {
+  background-color: #a4c3b2;
+  padding: 2px 20px;
+  border: none;
+  border-radius: 10px;
+  border: 1px solid gray;
+  font-size: large;
+  font-weight: bold;
+  margin-right: 1em;
+}
+
+.main__input {
+  width: 25%;
+  padding: 0.5em;
+  font-size: large;
+  border-radius: 10px;
+}
+
+.addBtn {
+  background-color: #a4c3b2;
+  padding: 12px 70px;
+  border: none;
+  border-radius: 10px;
+  border: 1px solid gray;
+  font-size: large;
+  font-weight: bold;
+}
+
+.option__title {
+  font-size: large;
+  font-weight: bold;
+}
+
+.option__select {
+  width: 15%;
+  padding: 4px 0px;
+  margin-left: 1em;
+  margin-bottom: 1em;
+}
